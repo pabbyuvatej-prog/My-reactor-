@@ -1,0 +1,65 @@
+{
+  "machine": "AV Quark Stabilizer",
+  "status": "fictional concept",
+  "units": "mm",
+  "overall_envelope": {
+    "diameter": 900,
+    "height": 1200
+  },
+  "modules": [
+    {
+      "id": "core",
+      "name": "Conceptual Stabilization Core",
+      "shape": "cylinder",
+      "diameter": 360,
+      "height": 420
+    },
+    {
+      "id": "field_ring_1",
+      "name": "Field Ring A",
+      "shape": "torus",
+      "major_diameter": 620,
+      "minor_diameter": 70
+    },
+    {
+      "id": "field_ring_2",
+      "name": "Field Ring B",
+      "shape": "torus",
+      "major_diameter": 720,
+      "minor_diameter": 70
+    },
+    {
+      "id": "control",
+      "name": "Control Housing",
+      "shape": "box",
+      "width": 300,
+      "depth": 180,
+      "height": 120
+    },
+    {
+      "id": "base",
+      "name": "Support Base",
+      "shape": "cylinder",
+      "diameter": 900,
+      "height": 80
+    }
+  ],
+  "interfaces": [
+    [
+      "core",
+      "field_ring_1"
+    ],
+    [
+      "field_ring_1",
+      "field_ring_2"
+    ],
+    [
+      "control",
+      "core"
+    ],
+    [
+      "base",
+      "field_ring_2"
+    ]
+  ]
+}

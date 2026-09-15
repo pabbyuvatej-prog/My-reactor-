@@ -1,0 +1,25 @@
+{
+  "note": "Concept labels only; not a bill of materials for construction.",
+  "items": [
+    {
+      "name": "Structural shell",
+      "role": "outer enclosure"
+    },
+    {
+      "name": "Field-ring concept",
+      "role": "fictional field-control geometry"
+    },
+    {
+      "name": "Control electronics concept",
+      "role": "monitoring/interface"
+    },
+    {
+      "name": "Sensor array concept",
+      "role": "fictional state monitoring"
+    },
+    {
+      "name": "Thermal management concept",
+      "role": "fictional heat-management layer"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>AV Quark Stabilizer</title>
+<style>body{font-family:Arial;margin:0;padding:24px;background:#111;color:#eee}img{max-width:900px;width:100%;background:#fff}pre{white-space:pre-wrap}</style>
+</head><body>
+<h1>AV Quark Stabilizer</h1>
+<p>Concept schematic viewer</p>
+<img src="../design/blueprint.svg" alt="Concept schematic">
+<h2>Assembly data</h2><pre id="data">Loading...</pre>
+<script>
+fetch('../design/assembly.json').then(r=>r.json()).then(x=>{
+document.getElementById('data').textContent=JSON.stringify(x,null,2)
+})
+</script>
+</body></html>
